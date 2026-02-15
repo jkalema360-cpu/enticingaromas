@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enticing Aromas - Quality Food Experience</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+        header { background: #8B4513; color: white; padding: 1rem 0; position: fixed; width: 100%; top: 0; z-index: 1000; }
+        nav { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 0 2rem; }
+        nav ul { display: flex; list-style: none; }
+        nav ul li { margin-left: 2rem; }
+        nav a { color: white; text-decoration: none; }
+        .hero { background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400"><rect fill="%23f4a261" width="1200" height="400"/><text x="50%" y="50%" font-size="48" fill="%238B4513" text-anchor="middle" dy=".3em">Delicious Food Images</text></svg>') center/cover; height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; color: white; margin-top: 70px; }
+        section { padding: 5rem 2rem; max-width: 1200px; margin: 0 auto; }
+        h2 { text-align: center; margin-bottom: 3rem; color: #8B4513; }
+        .menu-grid, .branches-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+        .menu-item, .branch { background: #f9f9f9; padding: 1.5rem; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center; }
+        .menu-item img, .branch img { width: 100%; height: 200px; object-fit: cover; border-radius: 10px; }
+        .price { font-weight: bold; color: #8B4513; font-size: 1.2rem; }
+        .payment { background: #4CAF50; color: white; padding: 2rem; text-align: center; border-radius: 10px; }
+        .payment button { background: #8B4513; color: white; border: none; padding: 1rem 2rem; font-size: 1.1rem; border-radius: 5px; cursor: pointer; }
+        footer { background: #333; color: white; text-align: center; padding: 2rem; }
+        @media (max-width: 768px) { nav ul { flex-direction: column; } .hero { margin-top: 100px; height: 70vh; } }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>🍽️ Enticing Aromas</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#branches">Branches</a></li>
+                <li><a href="#payment">Order Now</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div>
+            <h1>Welcome to Enticing Aromas</h1>
+            <p>Experience French, Jamaican, African, Pizza, Burgers & Mexican Flavors</p>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Our Delicious Menu</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <div style="background: #f4a261;">French Escargot Image</div>
+                <h3>French Escargot</h3>
+                <p>Garlic butter snails - UGX 45,000</p>
+            </div>
+            <div class="menu-item">
+                <div style="background: #e76f51;">Jamaican Jerk Chicken Image</div>
+                <h3>Jerk Chicken</h3>
+                <p>Spicy marinated chicken - UGX 32,000</p>
+            </div>
+            <div class="menu-item">
+                <div style="background: #2a9d8f;">African Ugali & Tilapia Image</div>
+                <h3>Ugali & Tilapia</h3>
+                <p>Fresh lake fish with ugali - UGX 28,000</p>
+            </div>
+            <div class="menu-item">
+                <div style="background: #f4a261;">Margherita Pizza Image</div>
+                <h3>Margherita Pizza</h3>
+                <p>Fresh mozzarella & basil - UGX 35,000</p>
+            </div>
+            <div class="menu-item">
+                <div style="background: #e76f51;">Classic Burger Image</div>
+                <h3>Classic Burger</h3>
+                <p>Beef patty with cheese - UGX 25,000</p>
+            </div>
+            <div class="menu-item">
+                <div style="background: #2a9d8f;">Mexican Tacos Image</div>
+                <h3>Chicken Tacos</h3>
+                <p>3 soft tacos with salsa - UGX 22,000</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>High-quality images of our signature dishes from French, Jamaican, African cuisines plus pizzas, burgers, and Mexican tacos.</p>
+    </section>
+
+    <section id="branches">
+        <h2>Our Branches</h2>
+        <div class="branches-grid">
+            <div class="branch">
+                <h3>Main Branch</h3>
+                <p>P.O Box 5374, Kampala Uganda<br>Nalumunye Road, near the roundabout</p>
+            </div>
+            <div class="branch">
+                <h3>Kitwe Branch</h3>
+                <p>Nalumunye Area</p>
+            </div>
+            <div class="branch">
+                <h3>Buziga Branch</h3>
+                <p>Lakeside Location</p>
+            </div>
+            <div class="branch">
+                <h3>Lyantonde Branch</h3>
+                <p>Southern Region</p>
+            </div>
+            <div class="branch">
+                <h3>Nabingo Branch</h3>
+                <p>Northern Kampala</p>
+            </div>
+            <div class="branch">
+                <h3>Ham Shopping Mall</h3>
+                <p>Prime Shopping Location</p>
+            </div>
+            <div class="branch">
+                <h3>Cooper Complex</h3>
+                <p>Business District</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="payment" class="payment">
+        <h2>Secure Online Payments</h2>
+        <p>Pay with MTN Mobile Money, Airtel Money, or Card</p>
+        <button onclick="alert('Redirecting to payment gateway... Integrate Stripe/Paystack for production.')">Place Order Now</button>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Main Address: P.O Box 5374, Kampala Uganda<br>Nalumunye Road, near the roundabout<br>Phone: +256 700 123456 | Email: info@enticingaromas.ug</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Enticing Aromas. Serving Kampala with world-class flavors. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
